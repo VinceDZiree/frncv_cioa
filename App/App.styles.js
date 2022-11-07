@@ -1,11 +1,11 @@
-import {Stylesheet} from 'react-native';
+import {StyleSheet} from 'react-native';
 
-const AppStylesheet = Stylesheet.create({
-  textBlue: {
+const AppStylesheet = StyleSheet.create({
+  textCyan: {
     color: 'cyan',
   },
   underline: {
-    textDecoration: 'underline',
+    textDecorationLine: 'underline',
   },
 });
 export default AppStylesheet;
