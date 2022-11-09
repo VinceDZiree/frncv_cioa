@@ -1,0 +1,27 @@
+{
+  "usesTypeScript": true,
+  "usesCssModule": true,
+  "cssPreprocessor": "css",
+  "testLibrary": "Testing Library",
+  "component": {
+    "default": {
+      "path": "App/components",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    },
+    "gen_js_func":{
+      "path": "App/components",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates":{
+        "component" : "grc_templates/jsfunctionComponents/TemplateName.js",
+        "style" :"grc_templates/jsfunctionComponents/TemplateName.styles.js",
+        "test" : "grc_templates/jsfunctionComponents/TemplateName-test.tsx"
+      }
+    }
+  }
+}
