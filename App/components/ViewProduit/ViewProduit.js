@@ -28,7 +28,6 @@ function ViewProduit(props) {
 }
 export const UnconnectedViewProduit = ViewProduit;
 export default props => {
-  
   const p = useSelector(s => s.produits.currentProduit);
   const d = useDispatch();
   return (

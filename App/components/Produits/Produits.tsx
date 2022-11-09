@@ -13,7 +13,6 @@ function Produits(props) {
       <SearchProduit />
       <ProduitsScrollContainer />
       {props.current !== undefined && props.current !== null && <ViewProduit />}
-      <ViewProduit />
     </View>
   );
 }
